@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stacker6X Web Vulnerability Detector</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+  <h1 class="title">Stacker<span class="highlight">6X.</span></h1>
+  <h3 class="subtitle">AI-Based Vulnerability & Attack Detector</h3>
+
+  <p class="intro">
+    An AI-powered security model that detects SQL injection (SQLi) and Cross-Site Scripting (XSS) in code and 
+    queries. Built with a machine learning ensemble and enhanced with regex guardrails to minimize false positives.
+    Enter code/query or upload a file to check for malicious content.
+  </p>
+
+  <div class="container">
+    <form id="predictForm">
+      <label for="textInput">Enter text:</label><br>
+      <textarea id="textInput" rows="6" placeholder="Type code, query, or payload here..."></textarea><br>
+
+      <label for="fileInput">Or upload a file (Max 2MB):</label><br>
+      <input type="file" id="fileInput" accept=".txt,.sql,.html,.js,.py,.log"><br><br>
+
+      <button type="submit">Check</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+  <script src="static/js/app.js"></script>
+</body>
+</html>
