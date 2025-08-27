@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 5% 7%;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.highlight {
+  color: #666666;
+}
+
+.subtitle {
+  display: block;
+  margin-top: 6px;
+}
+
+.intro {
+  width: 75%;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+textarea {
+  width: 75%;
+  margin: 5px 0;
+  background-color: #282c35;
+  color: white;
+  padding: 2%;
+}
+
+input[type="file"] {
+  width: 75%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: darkblue;
+}
