@@ -1,6 +1,6 @@
-# 🛡️ Frontend for Stacker6X API
+# 🛡️ Frontend App for the Stacker6X API
 
-This is the **frontend interface** for the **Stacker6X Security Model API: AI-Based Vulnerability & Attack Detector.**
+This is the **web user interface** for the **Stacker6X Security Model API: AI-Based Vulnerability & Attack Detector.**
 
 It serves as a user-friendly interface for the machine learning system that detects SQL injection (SQLi) and Cross-Site Scripting (XSS) attacks.
 The frontend provides a lightweight web UI where users can enter text, code, or payloads, send them to the backend API (hosted on AWS EC2) and instantly view the model’s classification results.
