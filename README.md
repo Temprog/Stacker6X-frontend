@@ -71,16 +71,16 @@ The frontend communicates with the backend API to classify inputs.
 ## 🎨 Web UI Screenshots / Demo
 
 ### Web UI
-![Stacker6X API Frontend Landing](https://github.com/Temprog/Stacker6X-frontend/blob/main/images/demo1.png)
+![Stacker6X API Frontend Landing](https://github.com/Temprog/Stacker6X-App/blob/main/images/demo1.png)
 *Landing page and input form*
 
-![Detection/prediction of normal/benign text](https://github.com/Temprog/Stacker6X-frontend/blob/main/images/demo2.png)
+![Detection/prediction of normal/benign text](https://github.com/Temprog/Stacker6X-App/blob/main/images/demo2.png)
 *Example prediction for benign input*
 
-![Detection/prediction of SQLi malicious code](https://github.com/Temprog/Stacker6X-frontend/blob/main/images/demo3.png)
+![Detection/prediction of SQLi malicious code](https://github.com/Temprog/Stacker6X-App/blob/main/images/demo3.png)
 *Detection of SQL injection payloads*
 
-![Detection/predicition of XSS malicious payloads](https://github.com/Temprog/Stacker6X-frontend/blob/main/images/demo4.png)
+![Detection/predicition of XSS malicious payloads](https://github.com/Temprog/Stacker6X-App/blob/main/images/demo4.png)
 *Detection of XSS attack payloads*
 
 
